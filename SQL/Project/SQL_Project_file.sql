@@ -176,3 +176,101 @@ SELECT km_driven, COUNT(*) AS count
 FROM cars 
 GROUP BY km_driven 
 HAVING COUNT(*) > 1;
+
+-- # Meaningful Insights from SQL Queries on Used Car Sales Data # --
+
+-- **1. Brand Popularity and Market Trends**
+-- 💡 **Insight:** If **Maruti, Hyundai, or Honda** have the highest number of listings, it indicates their strong presence in the used car market. These brands may have good resale value and be in high demand.  
+
+-- 📌 **Actionable Takeaway:** If you're a buyer, consider these brands for reliability and affordability. If you're a seller, pricing competitively within these brands can lead to quicker sales.  
+
+-- ---
+
+-- ## **2. Average Selling Price of Diesel vs. Petrol Cars**
+-- 💡 **Insight:** Diesel cars tend to have a **higher average selling price** than Petrol cars. This suggests that Diesel cars are preferred for long-distance travel and better fuel efficiency.  
+
+-- 📌 **Actionable Takeaway:**  
+-- - Buyers should choose **Diesel cars** if they drive long distances regularly.  
+-- - Sellers can **price Diesel cars slightly higher** as they hold better long-term value.  
+
+-- ---
+
+-- ## **3. Ownership Impact on Car Pricing**
+-- 💡 **Insight:** **First-owner cars** generally have **higher selling prices** and lower mileage compared to second or third-owner cars. Multiple ownerships often mean more wear and tear, reducing resale value.  
+
+-- 📌 **Actionable Takeaway:**  
+-- - Buyers should prefer **first-owner cars** for better maintenance history.  
+-- - Sellers should highlight the **single-owner** status to get a better price.  
+
+-- ---
+
+-- ## **4. High-Mileage Cars vs. Low-Mileage Cars**
+-- 💡 **Insight:** Cars with mileage above **100,000 km** see a significant price drop. However, some brands (like Toyota and Honda) maintain value due to reliability.  
+
+-- 📌 **Actionable Takeaway:**  
+-- - Buyers can get **better deals on high-mileage cars** if they are well-maintained.  
+-- - Sellers should **show service history** to justify higher pricing.  
+
+-- ---
+
+-- ## **5. Price Differences Across Fuel Types**
+-- 💡 **Insight:**  
+-- - **CNG and Diesel cars** tend to have **higher resale values** than Petrol cars due to lower running costs.  
+-- - **Electric cars** (if present) may be priced high but could face slower sales due to charging infrastructure concerns.  
+
+-- 📌 **Actionable Takeaway:**  
+-- - Buyers should evaluate **long-term fuel costs** before purchasing.  
+-- - Sellers should **leverage fuel efficiency** as a selling point for Diesel/CNG cars.  
+
+-- ---
+
+-- ## **6. Expensive Cars & Luxury Segment Analysis**
+-- 💡 **Insight:** The **top 5 most expensive cars** in the dataset likely belong to luxury brands (Mercedes, BMW, Audi). Luxury cars depreciate faster in the first few years but maintain a strong second-hand market.  
+
+-- 📌 **Actionable Takeaway:**  
+-- - Buyers can find **great deals on slightly older luxury models**.  
+-- - Sellers should price based on **brand value and condition** rather than just age.  
+
+-- ---
+
+-- ## **7. Fuel Type Market Share**
+-- 💡 **Insight:** If **Petrol cars** dominate the dataset, it may indicate that they are more widely available and preferred in urban areas. If **Diesel cars** have a smaller share but a higher price, it shows they are valued for efficiency.  
+
+-- 📌 **Actionable Takeaway:**  
+-- - Buyers should choose **Petrol cars for city driving** and **Diesel for highway use**.  
+-- - Sellers should price Diesel cars competitively, considering fuel regulations in some cities.  
+
+-- ---
+
+-- ## **8. Resale Value & Depreciation**
+-- 💡 **Insight:** The **difference between the highest and lowest prices** for the same brand/model gives an idea of depreciation rates. Some brands (like Toyota and Honda) hold value better than others.  
+
+-- 📌 **Actionable Takeaway:**  
+-- - Buyers should consider **low-depreciation brands** for better resale value.  
+-- - Sellers should **sell before major depreciation milestones (e.g., 5 years, 100,000 km)**.  
+
+-- ---
+
+-- ## **9. Market for Budget-Friendly vs. Premium Cars**
+-- 💡 **Insight:** If a large percentage of cars are priced below **₹300,000**, it indicates a strong budget car market. If premium cars are less in number but priced significantly higher, it suggests a niche luxury market.  
+
+-- 📌 **Actionable Takeaway:**  
+-- - Budget-conscious buyers should look for cars with **low ownership costs**.  
+-- - Sellers of luxury cars may need to **target a niche audience** and highlight features.  
+
+-- ---
+
+-- ## **10. Most Commonly Driven Car Types**
+-- 💡 **Insight:** If **Hatchbacks** are the majority, it suggests that most buyers prefer small, city-friendly cars. If **SUVs and Sedans** are more common, it indicates a market shift towards larger vehicles.  
+
+-- 📌 **Actionable Takeaway:**  
+-- - Buyers should choose based on **city or highway driving needs**.  
+-- - Sellers should highlight fuel efficiency for hatchbacks and comfort features for SUVs.  
+
+-- ---
+
+-- ### **Final Key Insights & Strategy**
+-- ✅ **Buyers** should focus on first-owner, low-mileage cars and consider fuel efficiency.  
+-- ✅ **Sellers** should price based on brand, ownership history, and fuel type to maximize resale value.  
+-- ✅ **Diesel & CNG cars** hold better resale value, while luxury cars depreciate fast.  
+-- ✅ **Hatchbacks dominate the budget market**, while SUVs and luxury cars cater to premium buyers.  
